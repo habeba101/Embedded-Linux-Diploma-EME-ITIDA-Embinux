@@ -13,7 +13,6 @@ def display_info():
     else:
         print(".. Employee not Found ..")
 
-
 def calculate_bonus():
     id=int(input("Enter Employee ID: "))
     for i in range(len(ed.Employee_list)):
